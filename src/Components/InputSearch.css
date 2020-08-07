@@ -14,40 +14,44 @@
 }
 
 .title {
-  text-align: center;
   font-family: "Lobster", cursive;
   font-size: 80px;
-  color: antiquewhite;
+  color: #f4998d;
 }
 
 .tagline {
-  text-align: center;
   font-family: "Caveat", cursive;
   font-size: 50px;
-  color: antiquewhite;
+  color: #f7ec59;
 }
 
-.input {
-  width: 53rem;
+/* .input {
+  width: 40rem;
   height: 100%;
   display: flex;
   position: relative;
-  border-radius: 0.8rem;
-  background-color: white;
-  border: none;
-}
+  margin-right: 10px;
+  border-radius: 10px;
+  border: 1px solid white;
+} */
 
 .search-container {
   position: absolute;
-  left: 550px;
+  box-sizing: border-box;
+  display: flex;
   margin-top: 3rem;
 }
 
-.dropdown {
+/* .dropdown {
   background-color: white;
   width: 15rem;
   height: 100%;
   display: flex;
   position: relative;
-  border-radius: 0.8rem;
+} */
+
+.contents-wrapper {
+  position: relative;
+  top: 10rem;
+  margin-left: 10rem;
 }
