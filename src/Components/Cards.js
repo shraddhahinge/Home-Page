@@ -7,16 +7,11 @@ import {
   CardMedia,
 } from "@material-ui/core";
 import { makeStyles } from "@material-ui/core/styles";
+import Cat from "./Cat";
+import card from "./card.jpg";
 import "./Cards.css";
 
-const useStyles = makeStyles({
-  root: {
-    maxWidth: 345,
-  },
-});
-
 function Cards() {
-  const classes = useStyles();
   const [categories, setCategories] = useState([]);
   console.log(categories[0]);
 
@@ -45,22 +40,9 @@ function Cards() {
   // https://developers.zomato.com/api/v2.1/categories
   return (
     <div className="cards">
-      {/* <Card className={classes.root}>
-        <CardActionArea>
-          <CardMedia
-            component="img"
-            alt="Contemplative Reptile"
-            height="140"
-            image="/static/images/cards/contemplative-reptile.jpg"
-            title="Contemplative Reptile"
-          />
-          <CardContent>
-            <Typography gutterBottom variant="h5" component="h2">
-              {categories.name}
-            </Typography>
-          </CardContent>
-        </CardActionArea>
-      </Card> */}
+      <h1>Hello</h1>
+
+      <h1>Bye</h1>
     </div>
   );
 }
